@@ -5,7 +5,6 @@ All files are commented with relevant links and descriptions
 
 Get started:
 
-Adapted from: https://www.atlassian.com/git/tutorials/dotfiles
 
 ```bash
 # Add this to .bashrc 
@@ -34,3 +33,6 @@ config status
 config add .vimrc
 config commit -m "Added vimrc"
 ```
+
+Adapted from: https://www.atlassian.com/git/tutorials/dotfiles
+See the thread here: https://news.ycombinator.com/item?id=11070797
