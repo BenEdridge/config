@@ -33,9 +33,9 @@ RED="\[\e[1;31m\]"
 GREEN="\[\e[1;32m\]"
 
 if [[ $EUID == 0 ]] ; then
-  PS1="$RED\u [ $NORMAL\w$RED ]# $NORMAL"
+  PS1='$RED\u [ $NORMAL\w$RED ]\# $NORMAL'
 else
-  PS1="$GREEN\u [ $NORMAL\w$GREEN ]\$ $NORMAL"
+  PS1='$GREEN\u [ $NORMAL\w$GREEN ]\$ $NORMAL'
 fi
 
 eval $(gdircolors -b $HOME/.dircolors)
