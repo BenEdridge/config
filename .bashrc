@@ -23,6 +23,7 @@ shopt -s globstar
 export PROMPT_DIRTRIM=4
 export HISTTIMEFORMAT="%h %d %H:%M:%S "
 export HISTSIZE=10000
+export HISTCONTROL=ignoredups
 
 ##############################
 # STYLING
